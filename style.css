@@ -1,0 +1,153 @@
+
+@import "https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css";
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    font-family: 'varela round',sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+   background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form {
+    display: block;
+    border-radius: 12px;
+    padding: 2vh 5vw;
+    background: #cccccc;
+
+    text-align: center;
+    box-shadow: 0px 0px 10px hsl(195,50%,98%);
+}
+
+.icon{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.fab {
+	padding-right: 10px;
+}
+
+h5{
+	padding:10px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.title {
+    padding:2px 0px;
+    border-bottom: 2px solid;
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+
+.login-field {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+
+
+
+input[type="submit"] {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+
+    padding: 0.8rem 1.2rem;
+    border: 2px outset hsl(356, 90%, 64%);
+    border-radius: 10px;
+    cursor: pointer;
+    color: #444;
+    background-color: transparent;
+    align-items: center;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	background-color:hsl(356,90%,64%);
+	color:#444;
+	transition-duration: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-field {
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0.8rem 1.2rem;
+    margin: 0.3rem 0;
+    background-color: #f0f0f0;
+}
+label {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
